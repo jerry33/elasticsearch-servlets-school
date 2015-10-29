@@ -59,7 +59,6 @@
                 <option value="year">year</option>
                 <option value="price">price</option>
                 <option value="kilometres">kilometres</option>
-                <option value="fuel">fuel</option>
                 <option value="engine_volume">engine volume</option>
             </select>
             <input type="text" name="from"/><input type="text" name="to"/>
