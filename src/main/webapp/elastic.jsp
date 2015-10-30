@@ -60,6 +60,9 @@
                 <option value="price">price</option>
                 <option value="kilometres">kilometres</option>
                 <option value="engine_volume">engine volume</option>
+                <option value="consumption_combined">consumption combined</option>
+                <option value="consumption_urban">consumption urban</option>
+                <option value="consumption_extra_urban">consumption extra urban</option>
             </select>
             <input type="text" name="from"/><input type="text" name="to"/>
             <br><br>
@@ -82,6 +85,9 @@
                 <b>Fuel: </b><%=result.get("fuel").toString()%><br>
                 <b>Engine volume: </b><%=result.get("engine_volume").toString()%><br>
                 <b>Power: </b><%=result.get("power").toString()%><br>
+                <b>Consumption combined: </b><%=result.get("consumption_combined").toString()%><br>
+                <b>Consumption urban: </b><%=result.get("consumption_urban").toString()%><br>
+                <b>Consumption extra urban: </b><%=result.get("consumption_extra_urban").toString()%><br>
                 <br><br>
         <%}
         }
